@@ -1,0 +1,77 @@
+* {
+    font-family: 'lexend',sans-serif;
+}
+body {
+    background-color: black;
+}
+
+div {
+    columns: 400px;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    padding-right: 5px;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 green,  
+        1px -1px 0 green,
+        -1px 1px 0 green,
+        1px 1px 0 green;
+}
+
+.foto {
+    margin: 40px;
+    padding-top: 40px;
+    
+}
+
+img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    
+}
+
+
+.foto img:hover {
+    filter: brightness(60%);
+}
+
+.btn {
+    border-radius: 6px;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    border: 1px solid green;
+}
+
+.btn:hover {
+    filter: brightness(100%);
+    background-color: rgb(44, 245, 44);
+}
+
+input {
+    border-radius: 50px;
+    color: black;
+    width: 20rem;
+    font-size: 25px;
+    align-self: center;
+    border: 1px solid black;
+}
+
+input::placeholder {
+    color: #cccccc;
+    padding-inline: 4px;
+}
+
+.icon {
+    padding-right: 2px;
+}
